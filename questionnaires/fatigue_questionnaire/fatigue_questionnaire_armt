@@ -1,0 +1,148 @@
+[
+    {
+        "field_name": "fatigue_questionnaire_slider_fatigue_level",
+        "form_name": "fatigue_questionnaire",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Sur une échelle de 0 à 10 (0 : aucune ; 10 : Sévère), quel est votre niveau de fatigue ressentie aujourd’hui ?",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1"
+        },
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "fatigue_questionnaire",
+        "field_annotation": ""
+    },
+    {
+        "field_name": "fatigue_questionnaire_radio_seizure",
+        "form_name": "fatigue_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Dans les dernières 24h, avez-vous eu une ou plusieurs crise(s) d'épilepsie ?",
+        "select_choices_or_calculations": [
+            {
+                "code": "00",
+                "label": "Non"
+            },
+            {
+                "code": "01",
+                "label": "Oui"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "fatigue_questionnaire",
+        "field_annotation": ""
+    },
+    {
+        "field_name": "fatigue_questionnaire_radio_seizure_number",
+        "form_name": "fatigue_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Combien de crises sont survenues dans les dernières 24h ? (indiquez un chiffre)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "Plus de 5"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "responses['fatigue_questionnaire_radio_seizure'] == 01",        
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "fatigue_questionnaire",
+        "field_annotation": ""
+    },
+    {
+        "field_name": "fatigue_questionnaire_radio_seizure_type",
+        "form_name": "fatigue_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Combien de crises ont impliqué une perte de conscience ? (indiquez le nombre)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "Plus de 5"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "responses['fatigue_questionnaire_radio_seizure_number'] == 1 || responses['fatigue_questionnaire_radio_seizure_number'] == 2 || responses['fatigue_questionnaire_radio_seizure_number'] == 3 || responses['fatigue_questionnaire_radio_seizure_number'] == 4 ||responses['fatigue_questionnaire_radio_seizure_number'] == 5 || responses['fatigue_questionnaire_radio_seizure_number'] == 6",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "fatigue_questionnaire",
+        "field_annotation": ""
+    },
+    {
+        "field_name": "fatigue_questionnaire_text_commentaires_fatigue",
+        "form_name": "fatigue_questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Avez vous des commentaires relatifs à la fatigue ?",
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "fatigue_questionnaire",
+        "field_annotation": ""
+    },
+    {
+        "field_name": "fatigue_questionnaire_text_commentaires_seizure",
+        "form_name": "fatigue_questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Avez vous des commentaires relatifs à votre/vos crise(s) d'épilepsie ?",
+        "field_note": "",
+        "branching_logic": "responses['fatigue_questionnaire_radio_seizure_type'] == 1 || responses['fatigue_questionnaire_radio_seizure_type'] == 2 || responses['fatigue_questionnaire_radio_seizure_type'] == 3 || responses['fatigue_questionnaire_radio_seizure_type'] == 4 ||responses['fatigue_questionnaire_radio_seizure_type'] == 5 || responses['fatigue_questionnaire_radio_seizure_type'] == 6",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "fatigue_questionnaire",
+        "field_annotation": ""
+    }
+
+]
