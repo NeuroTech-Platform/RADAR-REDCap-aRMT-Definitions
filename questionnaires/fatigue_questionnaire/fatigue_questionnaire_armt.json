@@ -14,7 +14,7 @@
         "branching_logic": "",
         "required_field": "y",
         "custom_alignment": "",
-        "matrix_group_name": "fatigue_questionnaire",
+        "matrix_group_name": "",
         "field_annotation": ""
     },
     {
@@ -25,11 +25,11 @@
         "field_label": "Dans les dernières 24h, avez-vous eu une ou plusieurs crise(s) d'épilepsie ?",
         "select_choices_or_calculations": [
             {
-                "code": "00",
+                "code": "0",
                 "label": "Non"
             },
             {
-                "code": "01",
+                "code": "1",
                 "label": "Oui"
             }
         ],
@@ -37,7 +37,7 @@
         "branching_logic": "",
         "required_field": "y",
         "custom_alignment": "",
-        "matrix_group_name": "fatigue_questionnaire",
+        "matrix_group_name": "",
         "field_annotation": ""
     },
     {
@@ -73,10 +73,10 @@
             }
         ],
         "field_note": "",
-        "branching_logic": "responses['fatigue_questionnaire_radio_seizure'] == 01",        
+        "branching_logic": "responses['fatigue_questionnaire_radio_seizure'] == 1",        
         "required_field": "y",
         "custom_alignment": "",
-        "matrix_group_name": "fatigue_questionnaire",
+        "matrix_group_name": "",
         "field_annotation": ""
     },
     {
@@ -112,10 +112,10 @@
             }
         ],
         "field_note": "",
-        "branching_logic": "responses['fatigue_questionnaire_radio_seizure'] == 01",
+        "branching_logic": "responses['fatigue_questionnaire_radio_seizure'] == 1",
         "required_field": "y",
         "custom_alignment": "",
-        "matrix_group_name": "fatigue_questionnaire",
+        "matrix_group_name": "",
         "field_annotation": ""
     },
     {
@@ -128,7 +128,7 @@
         "branching_logic": "",
         "required_field": "n",
         "custom_alignment": "",
-        "matrix_group_name": "fatigue_questionnaire",
+        "matrix_group_name": "",
         "field_annotation": ""
     },
     {
@@ -138,10 +138,10 @@
         "field_type": "text",
         "field_label": "Avez vous des commentaires relatifs à votre/vos crise(s) d'épilepsie ?",
         "field_note": "",
-        "branching_logic": "responses['fatigue_questionnaire_radio_seizure'] == 01",
+        "branching_logic": "responses['fatigue_questionnaire_radio_seizure'] == 1",
         "required_field": "n",
         "custom_alignment": "",
-        "matrix_group_name": "fatigue_questionnaire",
+        "matrix_group_name": "",
         "field_annotation": ""
     }
 
