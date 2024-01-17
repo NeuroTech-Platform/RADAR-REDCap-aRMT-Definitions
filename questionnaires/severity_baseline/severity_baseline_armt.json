@@ -309,5 +309,730 @@
         "custom_alignment": "",
         "matrix_group_name": "",
         "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_13",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "AED #1",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Acetazolamide"
+            },
+            {
+                "code": "2",
+                "label": "Brivaracetam"
+            },
+            {
+                "code": "3",
+                "label": "Carbamazepine"
+            },
+            {
+                "code": "4",
+                "label": "Clobazam"
+            },
+            {
+                "code": "5",
+                "label": "Clonazepam"
+            },
+            {
+                "code": "6",
+                "label": "Diazepam"
+            },
+            {
+                "code": "7",
+                "label": "Eslicarbazepine"
+            },
+            {
+                "code": "8",
+                "label": "Ethosuccimide"
+            },
+            {
+                "code": "9",
+                "label": "Felbamate"
+            },
+            {
+                "code": "10",
+                "label": "Gabapentin"
+            },
+            {
+                "code": "11",
+                "label": "Lacosamide"
+            },
+            {
+                "code": "12",
+                "label": "Lamotrigine"
+            },
+            {
+                "code": "13",
+                "label": "Levetiracetam"
+            },
+            {
+                "code": "14",
+                "label": "Oxcarbazepine"
+            },
+            {
+                "code": "15",
+                "label": "Perampane"
+            },
+            {
+                "code": "16",
+                "label": "Phenobarbital"
+            },
+            {
+                "code": "17",
+                "label": "Phenytoin"
+            },
+            {
+                "code": "18",
+                "label": "Prégabaline"
+            },
+            {
+                "code": "19",
+                "label": "Primidone"
+            },
+            {
+                "code": "20",
+                "label": "Retigabine"
+            },
+            {
+                "code": "21",
+                "label": "Rufinamide"
+            },
+            {
+                "code": "22",
+                "label": "Sodium valproate"
+            },
+            {
+                "code": "23",
+                "label": "Stiripentol"
+            },
+            {
+                "code": "24",
+                "label": "Sulthiame"
+            },
+            {
+                "code": "25",
+                "label": "Tiagabine"
+            },
+            {
+                "code": "26",
+                "label": "Topiramate"
+            },
+            {
+                "code": "27",
+                "label": "Vigabatrin"
+            },
+            {
+                "code": "28",
+                "label": "Zonisamide"
+            },
+            {
+                "code": "29",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_13b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please specify which other AED #1",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "[sev_bas_13] = '29'",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_14",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "AED #2",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Acetazolamide"
+            },
+            {
+                "code": "2",
+                "label": "Brivaracetam"
+            },
+            {
+                "code": "3",
+                "label": "Carbamazepine"
+            },
+            {
+                "code": "4",
+                "label": "Clobazam"
+            },
+            {
+                "code": "5",
+                "label": "Clonazepam"
+            },
+            {
+                "code": "6",
+                "label": "Diazepam"
+            },
+            {
+                "code": "7",
+                "label": "Eslicarbazepine"
+            },
+            {
+                "code": "8",
+                "label": "Ethosuccimide"
+            },
+            {
+                "code": "9",
+                "label": "Felbamate"
+            },
+            {
+                "code": "10",
+                "label": "Gabapentin"
+            },
+            {
+                "code": "11",
+                "label": "Lacosamide"
+            },
+            {
+                "code": "12",
+                "label": "Lamotrigine"
+            },
+            {
+                "code": "13",
+                "label": "Levetiracetam"
+            },
+            {
+                "code": "14",
+                "label": "Oxcarbazepine"
+            },
+            {
+                "code": "15",
+                "label": "Perampane"
+            },
+            {
+                "code": "16",
+                "label": "Phenobarbital"
+            },
+            {
+                "code": "17",
+                "label": "Phenytoin"
+            },
+            {
+                "code": "18",
+                "label": "Prégabaline"
+            },
+            {
+                "code": "19",
+                "label": "Primidone"
+            },
+            {
+                "code": "20",
+                "label": "Retigabine"
+            },
+            {
+                "code": "21",
+                "label": "Rufinamide"
+            },
+            {
+                "code": "22",
+                "label": "Sodium valproate"
+            },
+            {
+                "code": "23",
+                "label": "Stiripentol"
+            },
+            {
+                "code": "24",
+                "label": "Sulthiame"
+            },
+            {
+                "code": "25",
+                "label": "Tiagabine"
+            },
+            {
+                "code": "26",
+                "label": "Topiramate"
+            },
+            {
+                "code": "27",
+                "label": "Vigabatrin"
+            },
+            {
+                "code": "28",
+                "label": "Zonisamide"
+            },
+            {
+                "code": "29",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_14b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please specify which other AED #2",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "[sev_bas_14] = '29'",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_15",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "AED #3",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Acetazolamide"
+            },
+            {
+                "code": "2",
+                "label": "Brivaracetam"
+            },
+            {
+                "code": "3",
+                "label": "Carbamazepine"
+            },
+            {
+                "code": "4",
+                "label": "Clobazam"
+            },
+            {
+                "code": "5",
+                "label": "Clonazepam"
+            },
+            {
+                "code": "6",
+                "label": "Diazepam"
+            },
+            {
+                "code": "7",
+                "label": "Eslicarbazepine"
+            },
+            {
+                "code": "8",
+                "label": "Ethosuccimide"
+            },
+            {
+                "code": "9",
+                "label": "Felbamate"
+            },
+            {
+                "code": "10",
+                "label": "Gabapentin"
+            },
+            {
+                "code": "11",
+                "label": "Lacosamide"
+            },
+            {
+                "code": "12",
+                "label": "Lamotrigine"
+            },
+            {
+                "code": "13",
+                "label": "Levetiracetam"
+            },
+            {
+                "code": "14",
+                "label": "Oxcarbazepine"
+            },
+            {
+                "code": "15",
+                "label": "Perampane"
+            },
+            {
+                "code": "16",
+                "label": "Phenobarbital"
+            },
+            {
+                "code": "17",
+                "label": "Phenytoin"
+            },
+            {
+                "code": "18",
+                "label": "Prégabaline"
+            },
+            {
+                "code": "19",
+                "label": "Primidone"
+            },
+            {
+                "code": "20",
+                "label": "Retigabine"
+            },
+            {
+                "code": "21",
+                "label": "Rufinamide"
+            },
+            {
+                "code": "22",
+                "label": "Sodium valproate"
+            },
+            {
+                "code": "23",
+                "label": "Stiripentol"
+            },
+            {
+                "code": "24",
+                "label": "Sulthiame"
+            },
+            {
+                "code": "25",
+                "label": "Tiagabine"
+            },
+            {
+                "code": "26",
+                "label": "Topiramate"
+            },
+            {
+                "code": "27",
+                "label": "Vigabatrin"
+            },
+            {
+                "code": "28",
+                "label": "Zonisamide"
+            },
+            {
+                "code": "29",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_15b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please specify which other AED #3",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "[sev_bas_15] = '29'",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_16",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "AED #4",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Acetazolamide"
+            },
+            {
+                "code": "2",
+                "label": "Brivaracetam"
+            },
+            {
+                "code": "3",
+                "label": "Carbamazepine"
+            },
+            {
+                "code": "4",
+                "label": "Clobazam"
+            },
+            {
+                "code": "5",
+                "label": "Clonazepam"
+            },
+            {
+                "code": "6",
+                "label": "Diazepam"
+            },
+            {
+                "code": "7",
+                "label": "Eslicarbazepine"
+            },
+            {
+                "code": "8",
+                "label": "Ethosuccimide"
+            },
+            {
+                "code": "9",
+                "label": "Felbamate"
+            },
+            {
+                "code": "10",
+                "label": "Gabapentin"
+            },
+            {
+                "code": "11",
+                "label": "Lacosamide"
+            },
+            {
+                "code": "12",
+                "label": "Lamotrigine"
+            },
+            {
+                "code": "13",
+                "label": "Levetiracetam"
+            },
+            {
+                "code": "14",
+                "label": "Oxcarbazepine"
+            },
+            {
+                "code": "15",
+                "label": "Perampane"
+            },
+            {
+                "code": "16",
+                "label": "Phenobarbital"
+            },
+            {
+                "code": "17",
+                "label": "Phenytoin"
+            },
+            {
+                "code": "18",
+                "label": "Prégabaline"
+            },
+            {
+                "code": "19",
+                "label": "Primidone"
+            },
+            {
+                "code": "20",
+                "label": "Retigabine"
+            },
+            {
+                "code": "21",
+                "label": "Rufinamide"
+            },
+            {
+                "code": "22",
+                "label": "Sodium valproate"
+            },
+            {
+                "code": "23",
+                "label": "Stiripentol"
+            },
+            {
+                "code": "24",
+                "label": "Sulthiame"
+            },
+            {
+                "code": "25",
+                "label": "Tiagabine"
+            },
+            {
+                "code": "26",
+                "label": "Topiramate"
+            },
+            {
+                "code": "27",
+                "label": "Vigabatrin"
+            },
+            {
+                "code": "28",
+                "label": "Zonisamide"
+            },
+            {
+                "code": "29",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_16b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please specify which other AED #4",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "[sev_bas_16] = '29'",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_17",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "AED #5",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Acetazolamide"
+            },
+            {
+                "code": "2",
+                "label": "Brivaracetam"
+            },
+            {
+                "code": "3",
+                "label": "Carbamazepine"
+            },
+            {
+                "code": "4",
+                "label": "Clobazam"
+            },
+            {
+                "code": "5",
+                "label": "Clonazepam"
+            },
+            {
+                "code": "6",
+                "label": "Diazepam"
+            },
+            {
+                "code": "7",
+                "label": "Eslicarbazepine"
+            },
+            {
+                "code": "8",
+                "label": "Ethosuccimide"
+            },
+            {
+                "code": "9",
+                "label": "Felbamate"
+            },
+            {
+                "code": "10",
+                "label": "Gabapentin"
+            },
+            {
+                "code": "11",
+                "label": "Lacosamide"
+            },
+            {
+                "code": "12",
+                "label": "Lamotrigine"
+            },
+            {
+                "code": "13",
+                "label": "Levetiracetam"
+            },
+            {
+                "code": "14",
+                "label": "Oxcarbazepine"
+            },
+            {
+                "code": "15",
+                "label": "Perampane"
+            },
+            {
+                "code": "16",
+                "label": "Phenobarbital"
+            },
+            {
+                "code": "17",
+                "label": "Phenytoin"
+            },
+            {
+                "code": "18",
+                "label": "Prégabaline"
+            },
+            {
+                "code": "19",
+                "label": "Primidone"
+            },
+            {
+                "code": "20",
+                "label": "Retigabine"
+            },
+            {
+                "code": "21",
+                "label": "Rufinamide"
+            },
+            {
+                "code": "22",
+                "label": "Sodium valproate"
+            },
+            {
+                "code": "23",
+                "label": "Stiripentol"
+            },
+            {
+                "code": "24",
+                "label": "Sulthiame"
+            },
+            {
+                "code": "25",
+                "label": "Tiagabine"
+            },
+            {
+                "code": "26",
+                "label": "Topiramate"
+            },
+            {
+                "code": "27",
+                "label": "Vigabatrin"
+            },
+            {
+                "code": "28",
+                "label": "Zonisamide"
+            },
+            {
+                "code": "29",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_17b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please specify which other AED #5",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "[sev_bas_17] = '29'",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
     }
 ]
