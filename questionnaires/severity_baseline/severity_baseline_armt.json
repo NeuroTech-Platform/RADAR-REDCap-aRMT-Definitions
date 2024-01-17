@@ -14,27 +14,293 @@
       "field_annotation": "",
   },
   {
-        "field_name": "sev_bas_1",
+        "field_name": "sev_bas_2",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Date of inclusion",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_3",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Age at inclusion (year)",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_4",
         "form_name": "severity_baseline",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "When under stress, I engage in rigid or inflexible patterns of behaviour that seem odd to people",
+        "field_label": "Gender",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not true"
+                "label": "Male"
             },
             {
                 "code": "2",
-                "label": "Sometimes true"
+                "label": "Female"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_5",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Is the patient vulnerable?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "2",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_5b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Can you specify the type of vulnerability?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Patient < 14 years old"
+            },
+            {
+                "code": "2",
+                "label": "Patient > 14 years old"
             },
             {
                 "code": "3",
-                "label": "Often true"
+                "label": "Patient unable to consent"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "[sev_bas_5] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_6",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Age at epilepsy onset (year)",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_7",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Results of MRI exams",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_8",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "What type(s) of seizure?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Focal seizure without loss of awareness (simple partial seizure)"
+            },
+            {
+                "code": "2",
+                "label": "Focal seizure with loss of awareness (complex partial seizure)"
+            },
+            {
+                "code": "3",
+                "label": "Focal seizure with secondary generalisation"
             },
             {
                 "code": "4",
-                "label": "Almost always true"
+                "label": "Generalized tonic-clonic seizure"
+            },
+            {
+                "code": "5",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_8b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please specify what other type of seizure",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "[sev_bas_8] = '5'",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_9",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Is there a presence of an aura?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "2",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_10",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Mean seizure frequency",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_11",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Etiology of epilepsy",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Genetic"
+            },
+            {
+                "code": "2",
+                "label": "Cranial trauma"
+            },
+            {
+                "code": "3",
+                "label": "Infection"
+            },
+            {
+                "code": "4",
+                "label": "Prenatal lesion"
+            },
+            {
+                "code": "5",
+                "label": "Developmental disorder"
+            },
+            {
+                "code": "6",
+                "label": "Unknown"
+            },
+            {
+                "code": "7",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_11b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please specify what other etiology",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "[sev_bas_11] = '7'",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_12",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "AEDs?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "2",
+                "label": "No"
             }
         ],
         "field_note": "",
