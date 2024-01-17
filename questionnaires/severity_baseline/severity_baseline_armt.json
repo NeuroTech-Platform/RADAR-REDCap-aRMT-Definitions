@@ -188,7 +188,7 @@
         "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_8] = '5'",
-        "required_field": "n",
+        "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
         "field_annotation": "",
@@ -282,7 +282,7 @@
         "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_11] = '7'",
-        "required_field": "n",
+        "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
         "field_annotation": "",
@@ -305,6 +305,41 @@
         ],
         "field_note": "",
         "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_12b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How many AEDs?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5+"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "[sev_bas_12] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
@@ -435,7 +470,7 @@
             }
         ],
         "field_note": "",
-        "branching_logic": "",
+        "branching_logic": "[sev_bas_12] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
@@ -580,7 +615,7 @@
             }
         ],
         "field_note": "",
-        "branching_logic": "",
+        "branching_logic": "[sev_bas_12b] = '2' || [sev_bas_12b] = '3' || [sev_bas_12b] = '4' || [sev_bas_12b] = '5'",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
@@ -725,7 +760,7 @@
             }
         ],
         "field_note": "",
-        "branching_logic": "",
+        "branching_logic": "[sev_bas_12b] = '3' || [sev_bas_12b] = '4' || [sev_bas_12b] = '5'",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
@@ -870,7 +905,7 @@
             }
         ],
         "field_note": "",
-        "branching_logic": "",
+        "branching_logic": "[sev_bas_12b] = '4' || [sev_bas_12b] = '5'",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
@@ -1015,7 +1050,7 @@
             }
         ],
         "field_note": "",
-        "branching_logic": "",
+        "branching_logic": "[sev_bas_12b] = '5'",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
@@ -1030,6 +1065,66 @@
         "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_17] = '29'",
+        "required_field": "n",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_18",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Is he/she taking antidepressant drug?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "2",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_19",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did he/she had a surgery?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "2",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "sev_bas_19b",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please specify the surgery",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "branching_logic": "[sev_bas_19] = '1'",
         "required_field": "n",
         "custom_alignment": "",
         "matrix_group_name": "",
