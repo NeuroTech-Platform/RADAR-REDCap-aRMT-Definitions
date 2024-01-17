@@ -1,0 +1,47 @@
+[
+  {
+      "field_name": "sev_bas_1",
+      "form_name": "severity_baseline",
+      "section_header": "",
+      "field_type": "text",
+      "field_label": "Patient code (SEV-'center code'-'patient number')",
+      "select_choices_or_calculations": [],
+      "field_note": "",
+      "branching_logic": "",
+      "required_field": "y",
+      "custom_alignment": "",
+      "matrix_group_name": "",
+      "field_annotation": "",
+  },
+  {
+        "field_name": "sev_bas_1",
+        "form_name": "severity_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "When under stress, I engage in rigid or inflexible patterns of behaviour that seem odd to people",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true"
+            },
+            {
+                "code": "2",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "3",
+                "label": "Often true"
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": "",
+    }
+]
