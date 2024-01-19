@@ -1,32 +1,4 @@
 [
-  {
-        "field_name": "sev_dia_1",
-        "form_name": "severity_diary",
-        "section_header": "",
-        "field_type": "date",
-        "field_label": "Date of the seizure",
-        "select_choices_or_calculations": [],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-  {
-        "field_name": "sev_dia_2",
-        "form_name": "severity_diary",
-        "section_header": "",
-        "field_type": "time",
-        "field_label": "Time of the seizure",
-        "select_choices_or_calculations": [],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
     {
         "field_name": "sev_dia_3",
         "form_name": "severity_diary",
