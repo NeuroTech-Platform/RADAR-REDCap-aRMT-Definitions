@@ -7,7 +7,22 @@
         "field_label": "Date of the seizure",
         "select_choices_or_calculations": [],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "matrix_group_name": "",
+        "field_annotation": ""
+    },
+  {
+        "field_name": "sev_dia_2",
+        "form_name": "severity_diary",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Time of the seizure",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
         "branching_logic": "",
         "required_field": "y",
         "custom_alignment": "",
@@ -15,7 +30,7 @@
         "field_annotation": ""
     },
     {
-        "field_name": "sev_dia_2",
+        "field_name": "sev_dia_3",
         "form_name": "severity_diary",
         "section_header": "",
         "field_type": "radio",
@@ -50,7 +65,7 @@
         "field_annotation": ""
     },
     {
-        "field_name": "sev_dia_3",
+        "field_name": "sev_dia_4",
         "form_name": "severity_diary",
         "section_header": "",
         "field_type": "text",
