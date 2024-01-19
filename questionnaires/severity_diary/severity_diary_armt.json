@@ -12,7 +12,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_dia_2",
@@ -47,7 +47,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_dia_3",
