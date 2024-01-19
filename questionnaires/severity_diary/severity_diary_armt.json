@@ -7,7 +7,7 @@
         "field_label": "Date of the seizure",
         "select_choices_or_calculations": [],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_type_or_show_slider_number": "date",
         "branching_logic": "",
         "required_field": "y",
         "custom_alignment": "",
