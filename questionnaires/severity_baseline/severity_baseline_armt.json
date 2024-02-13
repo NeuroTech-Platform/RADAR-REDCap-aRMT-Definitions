@@ -1,1120 +1,1119 @@
 [
-  {
-      "field_name": "sev_bas_1",
-      "form_name": "severity_baseline",
-      "section_header": "",
-      "field_type": "text",
-      "field_label": "Patient code (SEV-'center code'-'patient number')",
-      "field_note": "",
-      "branching_logic": "",
-      "required_field": "y",
-      "custom_alignment": "",
-      "matrix_group_name": "",
-      "field_annotation": ""
-  },
-  {
-        "field_name": "sev_bas_2",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Date of inclusion",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "date_dmy",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_3",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Age at inclusion (year)",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_4",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Gender",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Male"
-            },
-            {
-                "code": "2",
-                "label": "Female"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_5",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Is the patient vulnerable?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Yes"
-            },
-            {
-                "code": "2",
-                "label": "No"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_5b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Can you specify the type of vulnerability?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Patient < 14 years old"
-            },
-            {
-                "code": "2",
-                "label": "Patient > 14 years old"
-            },
-            {
-                "code": "3",
-                "label": "Patient unable to consent"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "[sev_bas_5] = '1'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_6",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Age at epilepsy onset (year)",
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_7",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Results of MRI exams",
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_8",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "checkbox",
-        "field_label": "What type(s) of seizure?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Focal seizure without loss of awareness (simple partial seizure)"
-            },
-            {
-                "code": "2",
-                "label": "Focal seizure with loss of awareness (complex partial seizure)"
-            },
-            {
-                "code": "3",
-                "label": "Focal seizure with secondary generalisation"
-            },
-            {
-                "code": "4",
-                "label": "Generalized tonic-clonic seizure"
-            },
-            {
-                "code": "5",
-                "label": "Other"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_8b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Please specify what other type of seizure",
-        "field_note": "",
-        "branching_logic": "[sev_bas_8] = '5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_9",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Is there a presence of an aura?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Yes"
-            },
-            {
-                "code": "2",
-                "label": "No"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_10",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Mean seizure frequency",
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_11",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "checkbox",
-        "field_label": "Etiology of epilepsy",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Genetic"
-            },
-            {
-                "code": "2",
-                "label": "Cranial trauma"
-            },
-            {
-                "code": "3",
-                "label": "Infection"
-            },
-            {
-                "code": "4",
-                "label": "Prenatal lesion"
-            },
-            {
-                "code": "5",
-                "label": "Developmental disorder"
-            },
-            {
-                "code": "6",
-                "label": "Unknown"
-            },
-            {
-                "code": "7",
-                "label": "Other"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_11b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Please specify what other etiology",
-        "field_note": "",
-        "branching_logic": "[sev_bas_11] = '7'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_12",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "AEDs?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Yes"
-            },
-            {
-                "code": "2",
-                "label": "No"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_12b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "How many AEDs?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5+"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "[sev_bas_12] = '1'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_13",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "AED #1",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Acetazolamide"
-            },
-            {
-                "code": "2",
-                "label": "Brivaracetam"
-            },
-            {
-                "code": "3",
-                "label": "Carbamazepine"
-            },
-            {
-                "code": "4",
-                "label": "Clobazam"
-            },
-            {
-                "code": "5",
-                "label": "Clonazepam"
-            },
-            {
-                "code": "6",
-                "label": "Diazepam"
-            },
-            {
-                "code": "7",
-                "label": "Eslicarbazepine"
-            },
-            {
-                "code": "8",
-                "label": "Ethosuccimide"
-            },
-            {
-                "code": "9",
-                "label": "Felbamate"
-            },
-            {
-                "code": "10",
-                "label": "Gabapentin"
-            },
-            {
-                "code": "11",
-                "label": "Lacosamide"
-            },
-            {
-                "code": "12",
-                "label": "Lamotrigine"
-            },
-            {
-                "code": "13",
-                "label": "Levetiracetam"
-            },
-            {
-                "code": "14",
-                "label": "Oxcarbazepine"
-            },
-            {
-                "code": "15",
-                "label": "Perampane"
-            },
-            {
-                "code": "16",
-                "label": "Phenobarbital"
-            },
-            {
-                "code": "17",
-                "label": "Phenytoin"
-            },
-            {
-                "code": "18",
-                "label": "Prégabaline"
-            },
-            {
-                "code": "19",
-                "label": "Primidone"
-            },
-            {
-                "code": "20",
-                "label": "Retigabine"
-            },
-            {
-                "code": "21",
-                "label": "Rufinamide"
-            },
-            {
-                "code": "22",
-                "label": "Sodium valproate"
-            },
-            {
-                "code": "23",
-                "label": "Stiripentol"
-            },
-            {
-                "code": "24",
-                "label": "Sulthiame"
-            },
-            {
-                "code": "25",
-                "label": "Tiagabine"
-            },
-            {
-                "code": "26",
-                "label": "Topiramate"
-            },
-            {
-                "code": "27",
-                "label": "Vigabatrin"
-            },
-            {
-                "code": "28",
-                "label": "Zonisamide"
-            },
-            {
-                "code": "29",
-                "label": "Other"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "[sev_bas_12] = '1'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_13b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Please specify which other AED #1",
-        "field_note": "",
-        "branching_logic": "[sev_bas_13] = '29'",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": "",
-    },
-    {
-        "field_name": "sev_bas_14",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "AED #2",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Acetazolamide"
-            },
-            {
-                "code": "2",
-                "label": "Brivaracetam"
-            },
-            {
-                "code": "3",
-                "label": "Carbamazepine"
-            },
-            {
-                "code": "4",
-                "label": "Clobazam"
-            },
-            {
-                "code": "5",
-                "label": "Clonazepam"
-            },
-            {
-                "code": "6",
-                "label": "Diazepam"
-            },
-            {
-                "code": "7",
-                "label": "Eslicarbazepine"
-            },
-            {
-                "code": "8",
-                "label": "Ethosuccimide"
-            },
-            {
-                "code": "9",
-                "label": "Felbamate"
-            },
-            {
-                "code": "10",
-                "label": "Gabapentin"
-            },
-            {
-                "code": "11",
-                "label": "Lacosamide"
-            },
-            {
-                "code": "12",
-                "label": "Lamotrigine"
-            },
-            {
-                "code": "13",
-                "label": "Levetiracetam"
-            },
-            {
-                "code": "14",
-                "label": "Oxcarbazepine"
-            },
-            {
-                "code": "15",
-                "label": "Perampane"
-            },
-            {
-                "code": "16",
-                "label": "Phenobarbital"
-            },
-            {
-                "code": "17",
-                "label": "Phenytoin"
-            },
-            {
-                "code": "18",
-                "label": "Prégabaline"
-            },
-            {
-                "code": "19",
-                "label": "Primidone"
-            },
-            {
-                "code": "20",
-                "label": "Retigabine"
-            },
-            {
-                "code": "21",
-                "label": "Rufinamide"
-            },
-            {
-                "code": "22",
-                "label": "Sodium valproate"
-            },
-            {
-                "code": "23",
-                "label": "Stiripentol"
-            },
-            {
-                "code": "24",
-                "label": "Sulthiame"
-            },
-            {
-                "code": "25",
-                "label": "Tiagabine"
-            },
-            {
-                "code": "26",
-                "label": "Topiramate"
-            },
-            {
-                "code": "27",
-                "label": "Vigabatrin"
-            },
-            {
-                "code": "28",
-                "label": "Zonisamide"
-            },
-            {
-                "code": "29",
-                "label": "Other"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "[sev_bas_12b] = '2' || [sev_bas_12b] = '3' || [sev_bas_12b] = '4' || [sev_bas_12b] = '5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_14b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Please specify which other AED #2",
-        "field_note": "",
-        "branching_logic": "[sev_bas_14] = '29'",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_15",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "AED #3",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Acetazolamide"
-            },
-            {
-                "code": "2",
-                "label": "Brivaracetam"
-            },
-            {
-                "code": "3",
-                "label": "Carbamazepine"
-            },
-            {
-                "code": "4",
-                "label": "Clobazam"
-            },
-            {
-                "code": "5",
-                "label": "Clonazepam"
-            },
-            {
-                "code": "6",
-                "label": "Diazepam"
-            },
-            {
-                "code": "7",
-                "label": "Eslicarbazepine"
-            },
-            {
-                "code": "8",
-                "label": "Ethosuccimide"
-            },
-            {
-                "code": "9",
-                "label": "Felbamate"
-            },
-            {
-                "code": "10",
-                "label": "Gabapentin"
-            },
-            {
-                "code": "11",
-                "label": "Lacosamide"
-            },
-            {
-                "code": "12",
-                "label": "Lamotrigine"
-            },
-            {
-                "code": "13",
-                "label": "Levetiracetam"
-            },
-            {
-                "code": "14",
-                "label": "Oxcarbazepine"
-            },
-            {
-                "code": "15",
-                "label": "Perampane"
-            },
-            {
-                "code": "16",
-                "label": "Phenobarbital"
-            },
-            {
-                "code": "17",
-                "label": "Phenytoin"
-            },
-            {
-                "code": "18",
-                "label": "Prégabaline"
-            },
-            {
-                "code": "19",
-                "label": "Primidone"
-            },
-            {
-                "code": "20",
-                "label": "Retigabine"
-            },
-            {
-                "code": "21",
-                "label": "Rufinamide"
-            },
-            {
-                "code": "22",
-                "label": "Sodium valproate"
-            },
-            {
-                "code": "23",
-                "label": "Stiripentol"
-            },
-            {
-                "code": "24",
-                "label": "Sulthiame"
-            },
-            {
-                "code": "25",
-                "label": "Tiagabine"
-            },
-            {
-                "code": "26",
-                "label": "Topiramate"
-            },
-            {
-                "code": "27",
-                "label": "Vigabatrin"
-            },
-            {
-                "code": "28",
-                "label": "Zonisamide"
-            },
-            {
-                "code": "29",
-                "label": "Other"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "[sev_bas_12b] = '3' || [sev_bas_12b] = '4' || [sev_bas_12b] = '5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_15b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Please specify which other AED #3",
-        "field_note": "",
-        "branching_logic": "[sev_bas_15] = '29'",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_16",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "AED #4",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Acetazolamide"
-            },
-            {
-                "code": "2",
-                "label": "Brivaracetam"
-            },
-            {
-                "code": "3",
-                "label": "Carbamazepine"
-            },
-            {
-                "code": "4",
-                "label": "Clobazam"
-            },
-            {
-                "code": "5",
-                "label": "Clonazepam"
-            },
-            {
-                "code": "6",
-                "label": "Diazepam"
-            },
-            {
-                "code": "7",
-                "label": "Eslicarbazepine"
-            },
-            {
-                "code": "8",
-                "label": "Ethosuccimide"
-            },
-            {
-                "code": "9",
-                "label": "Felbamate"
-            },
-            {
-                "code": "10",
-                "label": "Gabapentin"
-            },
-            {
-                "code": "11",
-                "label": "Lacosamide"
-            },
-            {
-                "code": "12",
-                "label": "Lamotrigine"
-            },
-            {
-                "code": "13",
-                "label": "Levetiracetam"
-            },
-            {
-                "code": "14",
-                "label": "Oxcarbazepine"
-            },
-            {
-                "code": "15",
-                "label": "Perampane"
-            },
-            {
-                "code": "16",
-                "label": "Phenobarbital"
-            },
-            {
-                "code": "17",
-                "label": "Phenytoin"
-            },
-            {
-                "code": "18",
-                "label": "Prégabaline"
-            },
-            {
-                "code": "19",
-                "label": "Primidone"
-            },
-            {
-                "code": "20",
-                "label": "Retigabine"
-            },
-            {
-                "code": "21",
-                "label": "Rufinamide"
-            },
-            {
-                "code": "22",
-                "label": "Sodium valproate"
-            },
-            {
-                "code": "23",
-                "label": "Stiripentol"
-            },
-            {
-                "code": "24",
-                "label": "Sulthiame"
-            },
-            {
-                "code": "25",
-                "label": "Tiagabine"
-            },
-            {
-                "code": "26",
-                "label": "Topiramate"
-            },
-            {
-                "code": "27",
-                "label": "Vigabatrin"
-            },
-            {
-                "code": "28",
-                "label": "Zonisamide"
-            },
-            {
-                "code": "29",
-                "label": "Other"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "[sev_bas_12b] = '4' || [sev_bas_12b] = '5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_16b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Please specify which other AED #4",
-        "select_choices_or_calculations": [],
-        "field_note": "",
-        "branching_logic": "[sev_bas_16] = '29'",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_17",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "AED #5",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Acetazolamide"
-            },
-            {
-                "code": "2",
-                "label": "Brivaracetam"
-            },
-            {
-                "code": "3",
-                "label": "Carbamazepine"
-            },
-            {
-                "code": "4",
-                "label": "Clobazam"
-            },
-            {
-                "code": "5",
-                "label": "Clonazepam"
-            },
-            {
-                "code": "6",
-                "label": "Diazepam"
-            },
-            {
-                "code": "7",
-                "label": "Eslicarbazepine"
-            },
-            {
-                "code": "8",
-                "label": "Ethosuccimide"
-            },
-            {
-                "code": "9",
-                "label": "Felbamate"
-            },
-            {
-                "code": "10",
-                "label": "Gabapentin"
-            },
-            {
-                "code": "11",
-                "label": "Lacosamide"
-            },
-            {
-                "code": "12",
-                "label": "Lamotrigine"
-            },
-            {
-                "code": "13",
-                "label": "Levetiracetam"
-            },
-            {
-                "code": "14",
-                "label": "Oxcarbazepine"
-            },
-            {
-                "code": "15",
-                "label": "Perampane"
-            },
-            {
-                "code": "16",
-                "label": "Phenobarbital"
-            },
-            {
-                "code": "17",
-                "label": "Phenytoin"
-            },
-            {
-                "code": "18",
-                "label": "Prégabaline"
-            },
-            {
-                "code": "19",
-                "label": "Primidone"
-            },
-            {
-                "code": "20",
-                "label": "Retigabine"
-            },
-            {
-                "code": "21",
-                "label": "Rufinamide"
-            },
-            {
-                "code": "22",
-                "label": "Sodium valproate"
-            },
-            {
-                "code": "23",
-                "label": "Stiripentol"
-            },
-            {
-                "code": "24",
-                "label": "Sulthiame"
-            },
-            {
-                "code": "25",
-                "label": "Tiagabine"
-            },
-            {
-                "code": "26",
-                "label": "Topiramate"
-            },
-            {
-                "code": "27",
-                "label": "Vigabatrin"
-            },
-            {
-                "code": "28",
-                "label": "Zonisamide"
-            },
-            {
-                "code": "29",
-                "label": "Other"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "[sev_bas_12b] = '5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_17b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Please specify which other AED #5",
-        "field_note": "",
-        "branching_logic": "[sev_bas_17] = '29'",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_18",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Is he/she taking antidepressant drug?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Yes"
-            },
-            {
-                "code": "2",
-                "label": "No"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_19",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Did he/she had a surgery?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Yes"
-            },
-            {
-                "code": "2",
-                "label": "No"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_bas_19b",
-        "form_name": "severity_baseline",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Please specify the surgery",
-        "field_note": "",
-        "branching_logic": "[sev_bas_19] = '1'",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    }
+	{
+		"field_name": "sev_bas_1",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Patient code (SEV-center code-patient number)",
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_2",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Date of inclusion",
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "date_dmy",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_3",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Age at inclusion (year)",
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_4",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "Gender",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Male"
+			},
+			{
+				"code": "2",
+				"label": "Female"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_5",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "Is the patient vulnerable?",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Yes"
+			},
+			{
+				"code": "2",
+				"label": "No"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_5b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "Can you specify the type of vulnerability?",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Patient < 14 years old"
+			},
+			{
+				"code": "2",
+				"label": "Patient > 14 years old"
+			},
+			{
+				"code": "3",
+				"label": "Patient unable to consent"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "[sev_bas_5] = '1'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_6",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Age at epilepsy onset (year)",
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_7",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Results of MRI exams",
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_8",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "checkbox",
+		"field_label": "What type(s) of seizure?",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Focal seizure without loss of awareness (simple partial seizure)"
+			},
+			{
+				"code": "2",
+				"label": "Focal seizure with loss of awareness (complex partial seizure)"
+			},
+			{
+				"code": "3",
+				"label": "Focal seizure with secondary generalisation"
+			},
+			{
+				"code": "4",
+				"label": "Generalized tonic-clonic seizure"
+			},
+			{
+				"code": "5",
+				"label": "Other"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_8b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Please specify what other type of seizure",
+		"field_note": "",
+		"branching_logic": "[sev_bas_8] = '5'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_9",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "Is there a presence of an aura?",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Yes"
+			},
+			{
+				"code": "2",
+				"label": "No"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_10",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Mean seizure frequency",
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_11",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "checkbox",
+		"field_label": "Etiology of epilepsy",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Genetic"
+			},
+			{
+				"code": "2",
+				"label": "Cranial trauma"
+			},
+			{
+				"code": "3",
+				"label": "Infection"
+			},
+			{
+				"code": "4",
+				"label": "Prenatal lesion"
+			},
+			{
+				"code": "5",
+				"label": "Developmental disorder"
+			},
+			{
+				"code": "6",
+				"label": "Unknown"
+			},
+			{
+				"code": "7",
+				"label": "Other"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_11b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Please specify what other etiology",
+		"field_note": "",
+		"branching_logic": "[sev_bas_11] = '7'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_12",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "AEDs?",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Yes"
+			},
+			{
+				"code": "2",
+				"label": "No"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_12b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "How many AEDs?",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "1"
+			},
+			{
+				"code": "2",
+				"label": "2"
+			},
+			{
+				"code": "3",
+				"label": "3"
+			},
+			{
+				"code": "4",
+				"label": "4"
+			},
+			{
+				"code": "5",
+				"label": "5+"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "[sev_bas_12] = '1'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_13",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "AED #1",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Acetazolamide"
+			},
+			{
+				"code": "2",
+				"label": "Brivaracetam"
+			},
+			{
+				"code": "3",
+				"label": "Carbamazepine"
+			},
+			{
+				"code": "4",
+				"label": "Clobazam"
+			},
+			{
+				"code": "5",
+				"label": "Clonazepam"
+			},
+			{
+				"code": "6",
+				"label": "Diazepam"
+			},
+			{
+				"code": "7",
+				"label": "Eslicarbazepine"
+			},
+			{
+				"code": "8",
+				"label": "Ethosuccimide"
+			},
+			{
+				"code": "9",
+				"label": "Felbamate"
+			},
+			{
+				"code": "10",
+				"label": "Gabapentin"
+			},
+			{
+				"code": "11",
+				"label": "Lacosamide"
+			},
+			{
+				"code": "12",
+				"label": "Lamotrigine"
+			},
+			{
+				"code": "13",
+				"label": "Levetiracetam"
+			},
+			{
+				"code": "14",
+				"label": "Oxcarbazepine"
+			},
+			{
+				"code": "15",
+				"label": "Perampane"
+			},
+			{
+				"code": "16",
+				"label": "Phenobarbital"
+			},
+			{
+				"code": "17",
+				"label": "Phenytoin"
+			},
+			{
+				"code": "18",
+				"label": "Prégabaline"
+			},
+			{
+				"code": "19",
+				"label": "Primidone"
+			},
+			{
+				"code": "20",
+				"label": "Retigabine"
+			},
+			{
+				"code": "21",
+				"label": "Rufinamide"
+			},
+			{
+				"code": "22",
+				"label": "Sodium valproate"
+			},
+			{
+				"code": "23",
+				"label": "Stiripentol"
+			},
+			{
+				"code": "24",
+				"label": "Sulthiame"
+			},
+			{
+				"code": "25",
+				"label": "Tiagabine"
+			},
+			{
+				"code": "26",
+				"label": "Topiramate"
+			},
+			{
+				"code": "27",
+				"label": "Vigabatrin"
+			},
+			{
+				"code": "28",
+				"label": "Zonisamide"
+			},
+			{
+				"code": "29",
+				"label": "Other"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "[sev_bas_12] = '1'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_13b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Please specify which other AED #1",
+		"field_note": "",
+		"branching_logic": "[sev_bas_13] = '29'",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": "",
+	},
+	{
+		"field_name": "sev_bas_14",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "AED #2",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Acetazolamide"
+			},
+			{
+				"code": "2",
+				"label": "Brivaracetam"
+			},
+			{
+				"code": "3",
+				"label": "Carbamazepine"
+			},
+			{
+				"code": "4",
+				"label": "Clobazam"
+			},
+			{
+				"code": "5",
+				"label": "Clonazepam"
+			},
+			{
+				"code": "6",
+				"label": "Diazepam"
+			},
+			{
+				"code": "7",
+				"label": "Eslicarbazepine"
+			},
+			{
+				"code": "8",
+				"label": "Ethosuccimide"
+			},
+			{
+				"code": "9",
+				"label": "Felbamate"
+			},
+			{
+				"code": "10",
+				"label": "Gabapentin"
+			},
+			{
+				"code": "11",
+				"label": "Lacosamide"
+			},
+			{
+				"code": "12",
+				"label": "Lamotrigine"
+			},
+			{
+				"code": "13",
+				"label": "Levetiracetam"
+			},
+			{
+				"code": "14",
+				"label": "Oxcarbazepine"
+			},
+			{
+				"code": "15",
+				"label": "Perampane"
+			},
+			{
+				"code": "16",
+				"label": "Phenobarbital"
+			},
+			{
+				"code": "17",
+				"label": "Phenytoin"
+			},
+			{
+				"code": "18",
+				"label": "Prégabaline"
+			},
+			{
+				"code": "19",
+				"label": "Primidone"
+			},
+			{
+				"code": "20",
+				"label": "Retigabine"
+			},
+			{
+				"code": "21",
+				"label": "Rufinamide"
+			},
+			{
+				"code": "22",
+				"label": "Sodium valproate"
+			},
+			{
+				"code": "23",
+				"label": "Stiripentol"
+			},
+			{
+				"code": "24",
+				"label": "Sulthiame"
+			},
+			{
+				"code": "25",
+				"label": "Tiagabine"
+			},
+			{
+				"code": "26",
+				"label": "Topiramate"
+			},
+			{
+				"code": "27",
+				"label": "Vigabatrin"
+			},
+			{
+				"code": "28",
+				"label": "Zonisamide"
+			},
+			{
+				"code": "29",
+				"label": "Other"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "[sev_bas_12b] = '2' || [sev_bas_12b] = '3' || [sev_bas_12b] = '4' || [sev_bas_12b] = '5'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_14b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Please specify which other AED #2",
+		"field_note": "",
+		"branching_logic": "[sev_bas_14] = '29'",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_15",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "AED #3",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Acetazolamide"
+			},
+			{
+				"code": "2",
+				"label": "Brivaracetam"
+			},
+			{
+				"code": "3",
+				"label": "Carbamazepine"
+			},
+			{
+				"code": "4",
+				"label": "Clobazam"
+			},
+			{
+				"code": "5",
+				"label": "Clonazepam"
+			},
+			{
+				"code": "6",
+				"label": "Diazepam"
+			},
+			{
+				"code": "7",
+				"label": "Eslicarbazepine"
+			},
+			{
+				"code": "8",
+				"label": "Ethosuccimide"
+			},
+			{
+				"code": "9",
+				"label": "Felbamate"
+			},
+			{
+				"code": "10",
+				"label": "Gabapentin"
+			},
+			{
+				"code": "11",
+				"label": "Lacosamide"
+			},
+			{
+				"code": "12",
+				"label": "Lamotrigine"
+			},
+			{
+				"code": "13",
+				"label": "Levetiracetam"
+			},
+			{
+				"code": "14",
+				"label": "Oxcarbazepine"
+			},
+			{
+				"code": "15",
+				"label": "Perampane"
+			},
+			{
+				"code": "16",
+				"label": "Phenobarbital"
+			},
+			{
+				"code": "17",
+				"label": "Phenytoin"
+			},
+			{
+				"code": "18",
+				"label": "Prégabaline"
+			},
+			{
+				"code": "19",
+				"label": "Primidone"
+			},
+			{
+				"code": "20",
+				"label": "Retigabine"
+			},
+			{
+				"code": "21",
+				"label": "Rufinamide"
+			},
+			{
+				"code": "22",
+				"label": "Sodium valproate"
+			},
+			{
+				"code": "23",
+				"label": "Stiripentol"
+			},
+			{
+				"code": "24",
+				"label": "Sulthiame"
+			},
+			{
+				"code": "25",
+				"label": "Tiagabine"
+			},
+			{
+				"code": "26",
+				"label": "Topiramate"
+			},
+			{
+				"code": "27",
+				"label": "Vigabatrin"
+			},
+			{
+				"code": "28",
+				"label": "Zonisamide"
+			},
+			{
+				"code": "29",
+				"label": "Other"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "[sev_bas_12b] = '3' || [sev_bas_12b] = '4' || [sev_bas_12b] = '5'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+		},
+	{
+		"field_name": "sev_bas_15b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Please specify which other AED #3",
+		"field_note": "",
+		"branching_logic": "[sev_bas_15] = '29'",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_16",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "AED #4",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Acetazolamide"
+			},
+			{
+				"code": "2",
+				"label": "Brivaracetam"
+			},
+			{
+				"code": "3",
+				"label": "Carbamazepine"
+			},
+			{
+				"code": "4",
+				"label": "Clobazam"
+			},
+			{
+				"code": "5",
+				"label": "Clonazepam"
+			},
+			{
+				"code": "6",
+				"label": "Diazepam"
+			},
+			{
+				"code": "7",
+				"label": "Eslicarbazepine"
+			},
+			{
+				"code": "8",
+				"label": "Ethosuccimide"
+			},
+			{
+				"code": "9",
+				"label": "Felbamate"
+			},
+			{
+				"code": "10",
+				"label": "Gabapentin"
+			},
+			{
+				"code": "11",
+				"label": "Lacosamide"
+			},
+			{
+				"code": "12",
+				"label": "Lamotrigine"
+			},
+			{
+				"code": "13",
+				"label": "Levetiracetam"
+			},
+			{
+				"code": "14",
+				"label": "Oxcarbazepine"
+			},
+			{
+				"code": "15",
+				"label": "Perampane"
+			},
+			{
+				"code": "16",
+				"label": "Phenobarbital"
+			},
+			{
+				"code": "17",
+				"label": "Phenytoin"
+			},
+			{
+				"code": "18",
+				"label": "Prégabaline"
+			},
+			{
+				"code": "19",
+				"label": "Primidone"
+			},
+			{
+				"code": "20",
+				"label": "Retigabine"
+			},
+			{
+				"code": "21",
+				"label": "Rufinamide"
+			},
+			{
+				"code": "22",
+				"label": "Sodium valproate"
+			},
+			{
+				"code": "23",
+				"label": "Stiripentol"
+			},
+			{
+				"code": "24",
+				"label": "Sulthiame"
+			},
+			{
+				"code": "25",
+				"label": "Tiagabine"
+			},
+			{
+				"code": "26",
+				"label": "Topiramate"
+			},
+			{
+				"code": "27",
+				"label": "Vigabatrin"
+			},
+			{
+				"code": "28",
+				"label": "Zonisamide"
+			},
+			{
+				"code": "29",
+				"label": "Other"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "[sev_bas_12b] = '4' || [sev_bas_12b] = '5'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_16b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Please specify which other AED #4",
+		"field_note": "",
+		"branching_logic": "[sev_bas_16] = '29'",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_17",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "AED #5",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Acetazolamide"
+			},
+			{
+				"code": "2",
+				"label": "Brivaracetam"
+			},
+			{
+				"code": "3",
+				"label": "Carbamazepine"
+			},
+			{
+				"code": "4",
+				"label": "Clobazam"
+			},
+			{
+				"code": "5",
+				"label": "Clonazepam"
+			},
+			{
+				"code": "6",
+				"label": "Diazepam"
+			},
+			{
+				"code": "7",
+				"label": "Eslicarbazepine"
+			},
+			{
+				"code": "8",
+				"label": "Ethosuccimide"
+			},
+			{
+				"code": "9",
+				"label": "Felbamate"
+			},
+			{
+				"code": "10",
+				"label": "Gabapentin"
+			},
+			{
+				"code": "11",
+				"label": "Lacosamide"
+			},
+			{
+				"code": "12",
+				"label": "Lamotrigine"
+			},
+			{
+				"code": "13",
+				"label": "Levetiracetam"
+			},
+			{
+				"code": "14",
+				"label": "Oxcarbazepine"
+			},
+			{
+				"code": "15",
+				"label": "Perampane"
+			},
+			{
+				"code": "16",
+				"label": "Phenobarbital"
+			},
+			{
+				"code": "17",
+				"label": "Phenytoin"
+			},
+			{
+				"code": "18",
+				"label": "Prégabaline"
+			},
+			{
+				"code": "19",
+				"label": "Primidone"
+			},
+			{
+				"code": "20",
+				"label": "Retigabine"
+			},
+			{
+				"code": "21",
+				"label": "Rufinamide"
+			},
+			{
+				"code": "22",
+				"label": "Sodium valproate"
+			},
+			{
+				"code": "23",
+				"label": "Stiripentol"
+			},
+			{
+				"code": "24",
+				"label": "Sulthiame"
+			},
+			{
+				"code": "25",
+				"label": "Tiagabine"
+			},
+			{
+				"code": "26",
+				"label": "Topiramate"
+			},
+			{
+				"code": "27",
+				"label": "Vigabatrin"
+			},
+			{
+				"code": "28",
+				"label": "Zonisamide"
+			},
+			{
+				"code": "29",
+				"label": "Other"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "[sev_bas_12b] = '5'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_17b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Please specify which other AED #5",
+		"field_note": "",
+		"branching_logic": "[sev_bas_17] = '29'",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_18",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "Is he/she taking antidepressant drug?",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Yes"
+			},
+			{
+				"code": "2",
+				"label": "No"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_19",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "Did he/she had a surgery?",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Yes"
+			},
+			{
+				"code": "2",
+				"label": "No"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_bas_19b",
+		"form_name": "severity_baseline",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Please specify the surgery",
+		"field_note": "",
+		"branching_logic": "[sev_bas_19] = '1'",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	}
 ]
