@@ -1,78 +1,78 @@
 [
-    {
-        "field_name": "sev_dia_1",
-        "form_name": "severity_diary",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Date of the seizure",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_dia_2",
-        "form_name": "severity_diary",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Time of the seizure",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_dia_3",
-        "form_name": "severity_diary",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "What type of seizure?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Focal seizure without loss of awareness (simple partial seizure)"
-            },
-            {
-                "code": "2",
-                "label": "Focal seizure with loss of awareness (complex partial seizure)"
-            },
-            {
-                "code": "3",
-                "label": "Focal seizure with secondary generalisation"
-            },
-            {
-                "code": "4",
-                "label": "Generalized tonic-clonic seizure"
-            },
-            {
-                "code": "5",
-                "label": "Other"
-            }
-        ],
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": ""
-    },
-    {
-        "field_name": "sev_dia_4",
-        "form_name": "severity_diary",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Any comment?",
-        "field_note": "",
-        "branching_logic": "",
-        "required_field": "n",
-        "custom_alignment": "",
-        "matrix_group_name": "",
-        "field_annotation": "",
-    }
+	{
+		"field_name": "sev_dia_1",
+		"form_name": "severity_diary",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Date of the seizure",
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_dia_2",
+		"form_name": "severity_diary",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Time of the seizure",
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_dia_3",
+		"form_name": "severity_diary",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "What type of seizure?",
+		"select_choices_or_calculations": [
+			{
+				"code": "1",
+				"label": "Focal seizure without loss of awareness - simple partial seizure"
+			},
+			{
+				"code": "2",
+				"label": "Focal seizure with loss of awareness - complex partial seizure"
+			},
+			{
+				"code": "3",
+				"label": "Focal seizure with secondary generalisation"
+			},
+			{
+				"code": "4",
+				"label": "Generalized tonic-clonic seizure"
+			},
+			{
+				"code": "5",
+				"label": "Other"
+			}
+		],
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": ""
+	},
+	{
+		"field_name": "sev_dia_4",
+		"form_name": "severity_diary",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Any comment?",
+		"field_note": "",
+		"branching_logic": "",
+		"required_field": "n",
+		"custom_alignment": "",
+		"matrix_group_name": "",
+		"field_annotation": "",
+	}
 ]
