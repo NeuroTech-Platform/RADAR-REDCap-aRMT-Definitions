@@ -5,13 +5,12 @@
       "section_header": "",
       "field_type": "text",
       "field_label": "Patient code (SEV-'center code'-'patient number')",
-      "select_choices_or_calculations": [],
       "field_note": "",
       "branching_logic": "",
       "required_field": "y",
       "custom_alignment": "",
       "matrix_group_name": "",
-      "field_annotation": "",
+      "field_annotation": ""
   },
   {
         "field_name": "sev_bas_2",
@@ -19,14 +18,13 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Date of inclusion",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "date_dmy",
         "branching_logic": "",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_3",
@@ -34,14 +32,13 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Age at inclusion (year)",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "branching_logic": "",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_4",
@@ -64,7 +61,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_5",
@@ -87,7 +84,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_5b",
@@ -114,7 +111,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_6",
@@ -122,13 +119,12 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Age at epilepsy onset (year)",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "",
         "required_field": "n",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_7",
@@ -136,13 +132,12 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Results of MRI exams",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "",
         "required_field": "n",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_8",
@@ -177,7 +172,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_8b",
@@ -185,13 +180,12 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Please specify what other type of seizure",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_8] = '5'",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_9",
@@ -214,7 +208,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_10",
@@ -222,13 +216,12 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Mean seizure frequency",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "",
         "required_field": "n",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_11",
@@ -271,7 +264,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_11b",
@@ -279,13 +272,12 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Please specify what other etiology",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_11] = '7'",
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_12",
@@ -308,7 +300,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_12b",
@@ -343,7 +335,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_13",
@@ -474,7 +466,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_13b",
@@ -482,7 +474,6 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Please specify which other AED #1",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_13] = '29'",
         "required_field": "n",
@@ -619,7 +610,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_14b",
@@ -627,13 +618,12 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Please specify which other AED #2",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_14] = '29'",
         "required_field": "n",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_15",
@@ -764,7 +754,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_15b",
@@ -772,13 +762,12 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Please specify which other AED #3",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_15] = '29'",
         "required_field": "n",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_16",
@@ -909,7 +898,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_16b",
@@ -923,7 +912,7 @@
         "required_field": "n",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_17",
@@ -1054,7 +1043,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_17b",
@@ -1062,13 +1051,12 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Please specify which other AED #5",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_17] = '29'",
         "required_field": "n",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_18",
@@ -1091,7 +1079,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_19",
@@ -1114,7 +1102,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     },
     {
         "field_name": "sev_bas_19b",
@@ -1122,12 +1110,11 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "Please specify the surgery",
-        "select_choices_or_calculations": [],
         "field_note": "",
         "branching_logic": "[sev_bas_19] = '1'",
         "required_field": "n",
         "custom_alignment": "",
         "matrix_group_name": "",
-        "field_annotation": "",
+        "field_annotation": ""
     }
 ]
